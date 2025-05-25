@@ -14,7 +14,7 @@
     "service_worker": "src/background/background.js"
   },
   "action": {
-    "default_popup": "src/popup/Popup.jsx"
+    "default_popup": "index.html"
   },
   "content_scripts": [
     {

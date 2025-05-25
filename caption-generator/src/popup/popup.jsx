@@ -1,9 +1,8 @@
-import React from 'react'
 
-const popup = () => {
+const Popup = () => {
 
   const startCaptioning = () => {
-
+    chrome.runtime.sendMessage({ action: 'START_CAPTION'})
   }
   
   return (
@@ -14,4 +13,4 @@ const popup = () => {
   )
 }
 
-export default popup
+export default Popup
